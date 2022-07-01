@@ -11,5 +11,6 @@ public class MathOperations {
       double bonusMarks = 2.5;
 
       System.out.println(bagOfSweets1 + testScore);
+      System.out.println("remainder: " + ( 5 % 2));
   }
 }
