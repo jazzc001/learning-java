@@ -8,7 +8,6 @@ public class ReturnValues {
     public static double measureRectangle( double length, double width) {
         double area = length * width;
         return area;
-        
-
+    
     }
 }
