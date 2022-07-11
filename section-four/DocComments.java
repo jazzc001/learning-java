@@ -36,7 +36,7 @@ public class DocComments {
      */
 
     public static double calculateArea(double length, double width) {
-        double area = length * width
+        double area = length * width;
         return area;
     }
 }
