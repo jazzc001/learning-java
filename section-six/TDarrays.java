@@ -8,5 +8,9 @@ public class TDarrays {
         System.out.println("\tRon: " + Arrays.toString(grades[1]));
         System.out.println("\tHermione: " + Arrays.toString(grades[2]));
 
+        for (int i = 0; i < grades[0].length; i++) {
+            System.out.println(grades[0][i]);
+        }
+
     }
 }
