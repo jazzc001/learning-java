@@ -1,14 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        Car nissan = new Car();
-        nissan.make = "nissan";
-        nissan.price = 2000;
-        nissan.year = 2000;
-        nissan.color = "blue";
-        System.out.println(nissan.make);
-        System.out.println(nissan.price);
-        System.out.println(nissan.year);
-        System.out.println(nissan.color);
+        Car nissan = new Car("Nissan", 2000, 2000, "blue");
+        nissan.setColor("Red");
+        System.out.println(nissan.getMake());
+        System.out.println(nissan.getPrice());
+        System.out.println(nissan.getYear());
+        System.out.println(nissan.getColor());
     }
 }
