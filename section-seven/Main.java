@@ -23,8 +23,25 @@ public class Main {
         // System.out.println(Arrays.toString(nissan.getParts()));
         // System.out.println(Arrays.toString(nissan2.getParts()));
 
-        System.out.println(nissan);
+        // System.out.println(nissan);
 
+        Car[] cars = new Car[] {
+            new Car("Nissan", 2000, 2000, "blue", parts), 
+            new Car("Nissan2", 2000, 2000, "red", parts),
+        };
+
+        
         Dealership dealership = new Dealership();
+        for (int i = 0; i < cars.length; i++) {
+            dealership.setCar(cars[i], i);
+        }
+        // dealership.setCar(cars[0], 0);
+        // dealership.setCar(cars[1], 1);
+
+        // Car newCar = dealership.getCar(1);
+        // System.out.println(newCar);
+
+        // dealership.sell(1);
+        System.out.println(dealership.search("Nissan", 3000));
     }
 }
