@@ -24,5 +24,7 @@ public class Main {
         // System.out.println(Arrays.toString(nissan2.getParts()));
 
         System.out.println(nissan);
+
+        Dealership dealership = new Dealership();
     }
 }
