@@ -16,11 +16,13 @@ public class Main {
 
         nissan2.setParts(new String[] {"tires", "rim"});
 
-        System.out.println(nissan2.getMake());
-        System.out.println(nissan.getPrice());
-        System.out.println(nissan.getYear());
-        System.out.println(nissan.getColor());
-        System.out.println(Arrays.toString(nissan.getParts()));
-        System.out.println(Arrays.toString(nissan2.getParts()));
+        // System.out.println(nissan2.getMake());
+        // System.out.println(nissan.getPrice());
+        // System.out.println(nissan.getYear());
+        // System.out.println(nissan.getColor());
+        // System.out.println(Arrays.toString(nissan.getParts()));
+        // System.out.println(Arrays.toString(nissan2.getParts()));
+
+        System.out.println(nissan);
     }
 }
