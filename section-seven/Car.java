@@ -4,12 +4,20 @@ public class Car {
     private double price;
     private int year;
     private String color;
-
+    
     public Car(String make, double price, int year, String color) {
         this.make = make;
         this.price = price;
         this.year = year;
         this.color = color;
+    }
+    
+    public Car(Car source) {
+        /* copies values from source object into current object */
+        this.make = source.make;
+        this.price = source.price;
+        this.year = source.year;
+        this.color = source.color;
     }
 
     public String getMake() {
@@ -40,4 +48,5 @@ public class Car {
     public void setColor(String color) {
         this.color = color;
     }
+
 }
