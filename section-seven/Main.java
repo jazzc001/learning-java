@@ -43,5 +43,7 @@ public class Main {
 
         // dealership.sell(1);
         System.out.println(dealership.search("Nissan", 3000));
+
+        System.out.println(dealership);
     }
 }
