@@ -31,10 +31,10 @@ public class Main {
         };
 
         
-        Dealership dealership = new Dealership();
-        for (int i = 0; i < cars.length; i++) {
-            dealership.setCar(cars[i], i);
-        }
+        Dealership dealership = new Dealership(cars);
+        // for (int i = 0; i < cars.length; i++) {
+        //     dealership.setCar(cars[i], i);
+        // }
         // dealership.setCar(cars[0], 0);
         // dealership.setCar(cars[1], 1);
 
@@ -42,7 +42,7 @@ public class Main {
         // System.out.println(newCar);
 
         // dealership.sell(1);
-        System.out.println(dealership.search("Nissan", 3000));
+        // System.out.println(dealership.search("Nissan", 3000));
 
         System.out.println(dealership);
     }

@@ -5,8 +5,11 @@ public class Dealership {
     private Car[] cars;
 
     /* Constructors */
-    public Dealership() {
-        this.cars = new Car[3];
+    public Dealership(Car[] cars) {
+        this.cars = new Car[cars.length];
+        for (int i = 0; i < cars.length; i++) {
+            this.cars[i] = new Car(cars[i]);
+        }
         
     }
 
