@@ -1,4 +1,5 @@
 
+
 public class Main {
     static double[] price = new double[] {2.33, 1.32, 4.32, 11.33};
 
