@@ -15,31 +15,49 @@ public class Person {
         this.age = source.age;
     }
 
-    public int getAge() {
-        return age;
-    }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
-    // @Override
-    // public boolean equals(Object obj) {
-    //     if (obj == null) {
-    //         return false;
-    //     }
-    //     if (!(obj instanceof Person)) {
-    //         return false;
-    //     }
+    public void setName(String name) {
+        this.name = name;
+    }
 
-    //     Person person = (Person)obj;
-    //     return this.age == person.getAge() && this.name.equals(person.getName());
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+
+    // public int getAge() {
+    //     return age;
     // }
 
-    @Override
-    public String toString() {
-        // TODO Auto-generated method stub
-        return "age: " + this.age + ", name: " + this.name;
-    }
+    // public String getName() {
+    //     return name;
+    // }
+
+    // // @Override
+    // // public boolean equals(Object obj) {
+    // //     if (obj == null) {
+    // //         return false;
+    // //     }
+    // //     if (!(obj instanceof Person)) {
+    // //         return false;
+    // //     }
+
+    // //     Person person = (Person)obj;
+    // //     return this.age == person.getAge() && this.name.equals(person.getName());
+    // // }
+
+    // @Override
+    // public String toString() {
+    //     // TODO Auto-generated method stub
+    //     return "age: " + this.age + ", name: " + this.name;
+    // }
 
 }
