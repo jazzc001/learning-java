@@ -23,17 +23,23 @@ public class Person {
         return name;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == null) {
-            return false;
-        }
-        if (!(obj instanceof Person)) {
-            return false;
-        }
+    // @Override
+    // public boolean equals(Object obj) {
+    //     if (obj == null) {
+    //         return false;
+    //     }
+    //     if (!(obj instanceof Person)) {
+    //         return false;
+    //     }
 
-        Person person = (Person)obj;
-        return this.age == person.getAge() && this.name.equals(person.getName());
+    //     Person person = (Person)obj;
+    //     return this.age == person.getAge() && this.name.equals(person.getName());
+    // }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "age: " + this.age + ", name: " + this.name;
     }
 
 }
