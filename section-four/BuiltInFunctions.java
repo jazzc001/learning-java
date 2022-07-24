@@ -10,7 +10,7 @@ public class BuiltInFunctions {
         double power = Math.pow(2, 4);
         System.out.println("the power of 2 is: " + power);
 
-        double random = Math.random();
+        double random = Math.random() * 100;
         System.out.println("the random value is: " + random);
     }
 }
