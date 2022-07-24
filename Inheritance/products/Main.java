@@ -14,6 +14,11 @@ public class Main {
          * Each class should inderit common fields from a Parent class
          * child classes inderit from a Parent class.
          */
+
+         /* Polymorphism
+          * Inheritance allows an object to take many forms
+          * it allows an object to be polymorphic
+          */
     }
   
     /**
