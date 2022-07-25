@@ -9,4 +9,22 @@ public class Pants extends Product{
        
     }
 
+    public Pants(Pants source) {
+        super(source);
+        this.waist = source.waist;
+       
+    }
+
+
+    public int getWaist() {
+        return this.waist;
+    }
+
+    public void setWaist(int waist) {
+        this.waist = waist;
+    }
+
+
+
+
 }

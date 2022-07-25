@@ -20,6 +20,9 @@ public class Main {
         Pants pants = new Pants(32, 24, "blue", "Java");
         Shirt shirt2 = new Shirt(shirt);
 
+        shirt.getColor();
+        shirt.setColor("red");
+
         /* When two classes share common fields:
          * Never define the same fields in each class,
          * Each class should inderit common fields from a Parent class

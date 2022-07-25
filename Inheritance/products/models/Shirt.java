@@ -14,4 +14,14 @@ public class Shirt extends Product{
         super(source);
         this.size = source.size;
     }
+
+
+    public String getSize() {
+        return this.size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
 }
