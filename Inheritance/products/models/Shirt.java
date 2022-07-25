@@ -3,10 +3,13 @@ package models;
 import java.util.Objects;
 
 public class Shirt extends Product{
-    private String size;
+    public enum Size {
+        SMALL, MEDIUM, LARGE // enum is a collection of static final constants, use an enum to ensure something can be a limited number of values
+    }
+    private Size size;
    
 
-    public Shirt(String size, double price, String color, String brand) {
+    public Shirt(Size size, double price, String color, String brand) {
         super(price, color, brand);
         this.size = size;
         
@@ -18,13 +21,14 @@ public class Shirt extends Product{
     }
 
 
-    public String getSize() {
+    public Size getSize() {
         return this.size;
     }
 
-    public void setSize(String size) {
+    public void setSize(Size size) {
         this.size = size;
     }
+
 
 
 

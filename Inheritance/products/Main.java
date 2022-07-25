@@ -11,12 +11,12 @@ public class Main {
     
         
         Product[] products = new Product[] {
-            new Shirt("Amall", 5.99, "blue", "java"),
+            new Shirt(Shirt.Size.MEDIUM, 5.99, "blue", "java"),
             new Pants(32, 24, "blue", "Java")
         }; // a class can take its own form, or it can take the from that they inderit from
     
 
-        Shirt shirt = new Shirt("Amall", 5.99, "blue", "java");
+        Shirt shirt = new Shirt(Shirt.Size.SMALL, 5.99, "blue", "java");
         Pants pants = new Pants(32, 24, "blue", "Java");
         Shirt shirt2 = new Shirt(shirt);
 
