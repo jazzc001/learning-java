@@ -1,6 +1,6 @@
 package models;
 
-public class Product {
+public abstract class Product { // Making a class abstract if its only purpose is inheritance
     private double price;
     private String color;
     private String brand;

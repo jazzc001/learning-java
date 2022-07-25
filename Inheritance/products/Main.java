@@ -20,8 +20,16 @@ public class Main {
         Pants pants = new Pants(32, 24, "blue", "Java");
         Shirt shirt2 = new Shirt(shirt);
 
-        shirt.getColor();
-        shirt.setColor("red");
+        // shirt.getColor();
+        // shirt.setColor("red");
+        
+        
+        // shirt.equals(shirt2);
+        // System.out.println(shirt.hashCode());
+        // System.out.println(shirt2.hashCode());
+
+        System.out.println(shirt);
+        System.out.println(pants);
 
         /* When two classes share common fields:
          * Never define the same fields in each class,
@@ -33,6 +41,10 @@ public class Main {
           * Inheritance allows an object to take many forms
           * it allows an object to be polymorphic
           */
+
+        /* Objects that are equal must share the same hashCode
+         * When you override equals(), you mush override hashCode()
+         */
     }
   
     /**
