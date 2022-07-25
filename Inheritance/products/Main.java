@@ -1,11 +1,17 @@
 import models.Pants;
 import models.Shirt;
+import models.Product;
 
 public class Main {
   
     static final String FILE_NAME = "products.txt";
+        
+        Product[] products = new Product[] {
+            new Shirt("Amall", 5.99, "blue", "java"),
+            new Pants(32, 24, "blue", "Java")
+        }; // a class can take its own form, or it can take the from that they inderit from
+    
 
-    public static void main(String[] args) {
         Shirt shirt = new Shirt("Amall", 5.99, "blue", "java");
         Pants pants = new Pants(32, 24, "blue", "Java");
 
