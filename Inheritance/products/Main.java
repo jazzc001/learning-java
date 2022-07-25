@@ -5,6 +5,10 @@ import models.Product;
 public class Main {
   
     static final String FILE_NAME = "products.txt";
+
+    public static void main(String[] args) {
+
+    
         
         Product[] products = new Product[] {
             new Shirt("Amall", 5.99, "blue", "java"),
@@ -14,6 +18,7 @@ public class Main {
 
         Shirt shirt = new Shirt("Amall", 5.99, "blue", "java");
         Pants pants = new Pants(32, 24, "blue", "Java");
+        Shirt shirt2 = new Shirt(shirt);
 
         /* When two classes share common fields:
          * Never define the same fields in each class,

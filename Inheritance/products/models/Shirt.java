@@ -9,4 +9,9 @@ public class Shirt extends Product{
         this.size = size;
         
     }
+
+    public Shirt(Shirt source) {
+        super(source);
+        this.size = source.size;
+    }
 }
