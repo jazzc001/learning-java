@@ -28,8 +28,11 @@ public class Main {
         // System.out.println(shirt.hashCode());
         // System.out.println(shirt2.hashCode());
 
-        System.out.println(shirt);
-        System.out.println(pants);
+        // System.out.println(shirt);
+        // System.out.println(pants);
+
+        shirt.fold();
+        pants.fold();
 
         /* When two classes share common fields:
          * Never define the same fields in each class,

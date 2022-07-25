@@ -26,6 +26,14 @@ public class Pants extends Product{
         this.waist = waist;
     }
 
+    @Override
+    public void fold() {
+        // TODO Auto-generated method stub
+        System.out.println("Hold pants upright");
+        System.out.println("fold on leg over the other");
+        System.out.println("Fold pants from bottom in thirds");
+    }
+
 
     @Override
     public boolean equals(Object o) {

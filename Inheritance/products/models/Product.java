@@ -1,5 +1,7 @@
 package models;
 
+/* If a parent defins an abstract method, the child class must override it. */
+
 public abstract class Product { // Making a class abstract if its only purpose is inheritance
     private double price;
     private String color;
@@ -43,5 +45,7 @@ public abstract class Product { // Making a class abstract if its only purpose i
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
+    public abstract void fold();
 
 }

@@ -29,6 +29,15 @@ public class Shirt extends Product{
         this.size = size;
     }
 
+    @Override
+    public void fold() {
+        // TODO Auto-generated method stub
+        System.out.println("Lay shirt on flat sruface");
+        System.out.println(" fold shirt sideways");
+        System.out.println("Bring sleeves in");
+        System.out.println("Fold from the bottom up");
+    }
+
 
 
 
