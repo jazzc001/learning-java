@@ -33,6 +33,9 @@ public class Pants extends Product implements Discountable{
         
     }
 
+
+    
+
     @Override
     public void fold() {
         // TODO Auto-generated method stub

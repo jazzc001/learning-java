@@ -2,7 +2,7 @@ package models;
 
 /* If a parent defins an abstract method, the child class must override it. */
 
-public abstract class Product { // Making a class abstract if its only purpose is inheritance
+public abstract class Product implements Comparable<Product> { // Making a class abstract if its only purpose is inheritance
     private double price;
     private String color;
     private String brand;
@@ -47,5 +47,11 @@ public abstract class Product { // Making a class abstract if its only purpose i
     }
 
     public abstract void fold();
+
+    @Override
+    public int compareTo(Product specifiedObject) { // receives an specifiedObject
+        // TODO Auto-generated method stub
+        return (int) Math.round(this.getPrice() - specifiedObject.getPrice());
+    }
 
 }
