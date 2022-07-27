@@ -50,7 +50,12 @@ public abstract class Product implements Comparable<Product> { // Making a class
 
     @Override
     public int compareTo(Product specifiedObject) { // receives an specifiedObject
-        // TODO Auto-generated method stub
+        String className = this.getClass().getSimpleName();
+        String sClassName = specifiedObject.getClass().getSimpleName();
+        if (className.equals(sClassName)) {
+            return className.compareTo(sClassName);
+            
+        }
         return (int) Math.round(this.getPrice() - specifiedObject.getPrice());
     }
 

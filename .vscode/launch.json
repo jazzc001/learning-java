@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SortingStrings",
+            "request": "launch",
+            "mainClass": "SortingStrings",
+            "projectName": "Java_b232724a"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
