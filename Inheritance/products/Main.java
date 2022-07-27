@@ -19,6 +19,7 @@ public class Main {
         Shirt shirt = new Shirt(Shirt.Size.SMALL, 5.99, "blue", "java");
         Pants pants = new Pants(32, 24, "blue", "Java");
         Shirt shirt2 = new Shirt(shirt);
+        Pants pants2 = new Pants(pants);
 
         // shirt.getColor();
         // shirt.setColor("red");
@@ -31,8 +32,10 @@ public class Main {
         // System.out.println(shirt);
         // System.out.println(pants);
 
-        shirt.fold();
-        pants.fold();
+        // shirt.fold();
+        // pants.fold();
+
+        pants2.dsicount();
 
         /* When two classes share common fields:
          * Never define the same fields in each class,
